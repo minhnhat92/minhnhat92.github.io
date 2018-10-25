@@ -1,0 +1,193 @@
+#container {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0 15px;
+	margin-top: 60px;
+}
+
+#home{
+	background-image: url("bghome.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+#news{
+	background-image: url("bg2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+#about{
+	background-image: url("bg1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+#menu{
+	background-image: url("bg3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+#locations{
+	background-image: url("bg4.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+li {
+	display: inline;
+	padding: 20px;
+}
+
+ul {
+	list-style-type: none;
+	margin-bottom: 100px;
+    padding: 20px;
+    overflow: hidden;
+	text-align: center;
+	font-size: 40px;
+	background-color: #41393d;
+}
+
+li {
+	display: inline;
+
+}
+
+li a {
+	color: #ef4e22;
+	text-decoration: none;
+	padding: 10px;
+}
+li a.active{
+	color: #be1e2d;
+	text-decoration: underline;
+}
+
+
+#text-about {
+	background-color: #d7e4c2;
+	width: 630px;
+	margin-left: 165px;
+	padding: 10px;
+	margin-bottom: 100px;
+}
+
+section#text-about h1{
+	font-size: 50px;
+	margin: 0px;
+	text-align: center;
+}
+
+section#text-about p{
+	font-size: 30px;
+	margin: 0px;
+}
+
+#text-news {
+	background-color: #d4a18d;
+	width: 630px;
+	margin-left: 165px;
+	padding: 10px;
+	margin-bottom: 100px;
+}
+
+section#text-news h1{
+	font-size: 50px;
+	margin: 0px;
+	text-align: center;
+}
+
+section#text-news p{
+	font-size: 30px;
+	margin: 0px;
+}
+
+table, th, td {
+    border: 1px solid black;
+	background-color: #ef4e22;
+}
+
+#text-locations {
+	background-color: #8a8c8f;
+	width: 300px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	margin-bottom: 100px;
+}
+
+section#text-locations img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+section#text-locations h1{
+	font-size: 30px;
+	margin: 10px;
+	text-align: center;
+}
+
+section#text-locations h2{
+	font-size: 25px;
+	margin: 10px;
+	text-align: center;
+}
+
+section#text-locations p{
+	font-size: 15px;
+	margin: 10px;
+	text-align: center;
+}
+
+section#text-home img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 200px;
+    width: 600px;
+}
+
+.panda {
+	background-image: url("nav.jpg");
+	background-repeat: repeat-x;
+	background-size: 100px 100px;
+	background-position: top;
+	position: fixed;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+nav {
+	position: fixed;
+}
+
+.ig {
+	padding-top: 300px;
+}
